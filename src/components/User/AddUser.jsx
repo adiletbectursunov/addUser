@@ -18,7 +18,7 @@ const AddUser = (props) => {
     setAge(event.target.value)
    }
 
-   const sumbitHandler = (event) => {
+   const sumbitHandler = (event) => {  
     event.preventDefault()
     if (userName.trim().length === 0 || age.length === 0) {
         setError({
